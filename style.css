@@ -8,11 +8,16 @@ body > * {
     border-radius: 12px;
 }
 
+[class="first"] {
+    border-style: solid;
+}
+
 [class="middle"] {
     color: white;
     background-color: aquamarine;
     border-color: aquamarine;
     border-radius: 50%;
+    border-style: solid;
     width: 30px;
     height: 30px;
 
@@ -24,5 +29,5 @@ body > * {
     height: 30px;
     border-radius: 1px;
     background-color: blue;
-    box-shadow: 2px 2px black;
+    box-shadow: 5px 5px 3px black;
 }
