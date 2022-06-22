@@ -1,0 +1,28 @@
+body > * {
+    background-color: white;
+    border-width: 2px;
+    border-color: aquamarine;
+    color: aquamarine;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+[class="middle"] {
+    color: white;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+[class="last"] {
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: blue;
+    box-shadow: 2px 2px black;
+}
